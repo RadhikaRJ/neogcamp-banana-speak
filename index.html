@@ -3,7 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minion Speaks</title>
+    <title>Banana Speak</title>
+    <style>
+        textarea{
+            width:80%;
+            height:10vh;
+            display:black;
+            margin: 1rem;
+            padding:1rem;
+
+        }
+        #output-txt{
+            width:80%;
+            height:10vh;            
+            margin: 1rem;
+            padding:1rem 1rem ;
+            border: 1px solid black ;
+        }
+    </style>
 </head>
 <body>
    <h1>English to Minion Translator!</h1>
@@ -12,8 +29,10 @@
        var username=prompt("enter username")
        alert("Welcome "+username);
    </script> -->
-
+    <textarea id="txt-input" placeholder="Enter text for translation"></textarea>
+    <div></div>
    <button id="btn-translate">Tanslate</button>
+   <div id="output-txt" ></div>
    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
