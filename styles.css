@@ -1,63 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Texturina:ital@1&display=swap');
-h1{
-    padding:10px 50px;    
-    margin:0px;
-    color: blue;
-    background-color: yellow;
+
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@800&display=swap');
+
+h1 {
+    padding: 10px 50px;
+
+    margin: 0px;
+    color:black;
+    background-color: transparent;
     text-align: center;
     font-family: 'Texturina', serif;
 }
-.head-container{
-    
-    background-color:yellow;    
-    padding:0px 30px 40px 30px;
-    background-image:url('images/minion1.jpg');
-    background-size:100% 100% ;
-     background-repeat: no-repeat;
-    text-align: center;
+
+body {
+    background-image: url('images/minion1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center;
-    background-attachment:fixed;
+    background-attachment: fixed;
+}
+
+.head-container {
+
+    background-color: transparent;
+    padding: 0px 30px 40px 30px;
+
+    text-align: center;
+
     margin: 0%;
     font-family: 'Texturina', serif;
     font-size: large;
 }
 
-.user-input{
+.user-input {
     align-items: center;
-    padding:0px 30px;
-    
+    padding: 0px 30px;
+
 }
 
-.user-input textarea{
-    width:40%;
-    height:20vh;    
+.user-input textarea {
+    width: 40%;
+    height: 20vh;
     margin: 1rem;
-   text-align: center;
+    text-align: center;
     background-color: transparent;
     border: 2px solid white;
-    color:black;
+    color: black;
     font-family: 'Texturina', serif;
     font-size: large;
-    
+
 
 }
 
-.user-input #btn-translate{
-    padding:10px 10px;
+.user-input #btn-translate {
+    padding: 10px 10px;
     background-color:yellow;
     border: 1px solid white;
-    color: blue;
-    margin:2rem;
-
-}
-.user-input #output-txt{
-    width:40%;
-    height: 30vh;              
+    color: black;
     margin: 2rem;
-    padding:1rem 5rem;
-    border: 2px solid white ;
+    font-family: 'Texturina', serif;
+}
+
+.user-input #output-txt {
+    width: 100%;
+    height: 80vh;
+    margin: 2rem;
+    padding: 1rem 5rem;
+    border: 2px solid white;
     background-color: transparent;
     color: blue;
-    
-    
+    font-family: 'Texturina', serif;
+
 }
