@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
-    <style>
+    <!-- <style>
         textarea{
             width:80%;
             height:10vh;
@@ -20,19 +21,37 @@
             padding:1rem 1rem ;
             border: 1px solid black ;
         }
-    </style>
+    </style> -->
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-   <h1>English to Minion Translator!</h1>
-   <!-- <script>
+    <h1>When in doubt, talk like the Minions!</h1>
+    <div class="head-container">
+
+        <div class="user-input">
+            <textarea id="txt-input" placeholder="Enter text for translation"></textarea><br>
+            <!-- <img src="images/minion1.jpg" alt="Minions Rule the World!" width="500" height="600"> -->
+            <button id="btn-translate">Tanslate</button><br>
+            <output id="output-txt"></output>
+        </div>
+        <div >
+
+        </div>
+
+    </div>
+
+
+    <!-- <script>
        console.log("Hello!");
        var username=prompt("enter username")
        alert("Welcome "+username);
    </script> -->
-    <textarea id="txt-input" placeholder="Enter text for translation"></textarea>
-    <div></div>
-   <button id="btn-translate">Tanslate</button>
-   <div id="output-txt" ></div>
-   <script src="app.js" type="text/javascript"></script>
+
+
+
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
