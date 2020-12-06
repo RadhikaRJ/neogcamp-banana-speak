@@ -21,12 +21,15 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+ 
 }
 
 .head-container {
 
     background-color: transparent;
-    padding: 0px 30px 40px 30px;
+    padding: 0px 10px 40px 10px;
 
     text-align: center;
 
@@ -56,7 +59,7 @@ body {
 }
 
 .user-input #btn-translate {
-    padding: 10px 10px;
+    padding: 5px 10px;
     background-color:yellow;
     border: 1px solid white;
     color: black;
@@ -66,12 +69,13 @@ body {
 
 .user-input #output-txt {
     width: 100%;
-    height: 80vh;
-    margin: 2rem;
-    padding: 1rem 5rem;
+    height: 20vh;
+    margin: 0rem;
+    padding: 0%;
     border: 2px solid white;
-    background-color: transparent;
+   background-color:yellow;
     color: blue;
     font-family: 'Texturina', serif;
+    padding:1rem;
 
 }
