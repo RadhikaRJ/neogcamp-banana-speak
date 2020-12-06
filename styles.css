@@ -10,6 +10,10 @@ h1 {
     text-align: center;
     font-family: 'Texturina', serif;
 }
+.container{
+    max-width: 500px;
+    margin:auto;
+}
 
 body {
     background-image: url('images/minion1.jpg');
@@ -26,7 +30,7 @@ body {
 
     text-align: center;
 
-    margin: 0%;
+    margin: auto;
     font-family: 'Texturina', serif;
     font-size: large;
 }
@@ -38,9 +42,9 @@ body {
 }
 
 .user-input textarea {
-    width: 40%;
+    width: 80%;
     height: 20vh;
-    margin: 1rem;
+    margin: auto;
     text-align: center;
     background-color: transparent;
     border: 2px solid white;
